@@ -1,0 +1,12 @@
+---
+layout: layouts/base.html
+welcomeMsg: "Hello World"
+---
+
+<h1>{{ welcomeMsg }}</h1>
+
+ {% for post in collections.posts %}
+
+ <a href="{{post.url}}">{{post.data.title}}</a>
+
+ {% endfor %}
