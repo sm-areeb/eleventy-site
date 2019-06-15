@@ -1,6 +1,6 @@
 ---
 title: "Welcome post"
-data: "2019-06-10"
+date: "2019-06-10"
 ---
 
 ## This is h2
